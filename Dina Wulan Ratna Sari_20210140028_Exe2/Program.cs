@@ -50,4 +50,9 @@ namespace Dina_Wulan_Ratna_Sari_20210140028_Exe2
             {
                 Console.WriteLine((Convert.ToDecimal(dina[DW])));
             }
-            Console.WriteLine
+            Console.WriteLine("");
+        }
+        public void Insertionsortarray()
+        {
+
+        }
