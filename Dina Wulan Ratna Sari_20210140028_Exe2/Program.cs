@@ -54,5 +54,22 @@ namespace Dina_Wulan_Ratna_Sari_20210140028_Exe2
         }
         public void Insertionsortarray()
         {
+            //1. repeat steps 2,3,4, and 5 varying i from 1 to n-1
+            for (int i = 0; i < n - 1; i++)
+            {
+                //2.menambahkan set temp = arr[i]
+                decimal temp = dina[1];
+                //3. Set j =i - 1
+                int DW = i - 1;
+                //4. Repeat until j becomes less than 0 or arr[j] becomes less than or equal to temp:
+                //a. Shift the value at index j to index j+1
+                //b. Decrement j by 1
+                while ((DW >= 0) && (dina[DW] < temp)
+                {
+                    dina[DW] = temp;
+                }
 
+
+
+            }
         }
