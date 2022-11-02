@@ -10,7 +10,7 @@ namespace Dina_Wulan_Ratna_Sari_20210140028_Exe2
     {
         //deklarasi array int 20-2x15+10+20+28 = 48
         //definisikan array dengan ukuran maksimum 48
-        private decimal[] arr = new decimal[48];
+        private decimal[] dina = new decimal[48];
         //variable ukuran array
         private decimal n;
         //fungsi untuk menginputkan ukuran array
@@ -36,10 +36,18 @@ namespace Dina_Wulan_Ratna_Sari_20210140028_Exe2
             {
                 Console.Write("<" + (i + 1) + ">");
                 string s1 = Console.ReadLine();
-                arr[i] = decimal.Parse(s1);
-
+                dina[i] = (int)decimal.Parse(s1);
             }
-
         }
-    }
-}
+        public void display()
+        {
+            //menampilkan array yang tersusun
+            Console.WriteLine("");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Element array yang telah tersusun");
+            Console.WriteLine("---------------------------------");
+            for (int DW = 0; DW < n; DW++)
+            {
+                Console.WriteLine((Convert.ToDecimal(dina[DW])));
+            }
+            Console.WriteLine
